@@ -12,6 +12,11 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "HGCircularSlider", path: "HGCircularSlider/Classes")
+        .target(
+            name: "HGCircularSlider",
+            dependencies: [],
+            path: "HGCircularSlider",
+            sources: ["Classes"]
+        )
     ]
 )
